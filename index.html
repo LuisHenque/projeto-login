@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style-mq.css">
     <title>Login</title>
 </head>
 <body>
@@ -11,11 +12,18 @@
     <main>
         <section id="login">
             <div id="imagemLogin">
-                <img src="" alt="">
+                <!-- <img src="imagens/background-10.jpg" alt="Torre"> -->
             </div>
             <div id="formLogin">
                 <h1>Login</h1>
                 <p>Faça login e acesse seu ambiente.</p>
+                <form action="login.html" method="post">
+                    <label for="iNome">Nome:</label>
+                    <input type="text" name="nome" id="iNome">
+                    <label for="iSenha">Senha: </label>
+                    <input type="password" name="senha" id="iSenha">
+                    <input id="button" type="submit" value="Logar">
+                </form>
 
             </div>
         </section>
