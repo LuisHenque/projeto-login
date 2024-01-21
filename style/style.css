@@ -13,16 +13,20 @@ body, html {
     width: 100vw;
 }
 
+header h1 {
+    text-align: center;
+}
+
 main {
-    height: 100vh;
-    width: 100vw;
+    height: 90vh;
+    width: 90vw;
 }
 
 section#login {
     background-color: #f2f2f2;
     border-radius: 15px;
     display: block;
-    height: 500px;
+    height: 515px;
     position: absolute;
     width: 250px;
     left: 50%;
@@ -46,14 +50,72 @@ section#login > div#formLogin {
     padding: 10px;
 }
 
-input {
-    border: none;
+
+div#formLogin > h1 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-input#button {
-    background-color: #ff7300;
-    color: white;
-    padding: 5px 10px 8px 10px;
-    margin-top: 10px;
+div#formLogin > p {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+form > div.campo {
+    background-color: #19afa7a4;
+    height: 40px;
     border-radius: 10px;
+    margin: 10px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+/* input {
+    border: none;
+    display: block;
+    
+    height: 30px;
+    padding-left: 10px;
+} */
+
+form > input[type=submit] {
+    background-color: #ff7300;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-size: 1em;
+    height: 40px;
+    margin-top: 10px;
+    padding: 5px 10px 8px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #9e4700;
+}
+
+form > a.botao  {
+    background-color: #3f1859;
+    border-radius: 10px;
+    color: #f2f2f2;
+    display: block;
+    font-size: 1em;
+    height: 40px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%; 
+}
+
+form > a.botao:hover {
+    background-color: #742ba5;
+    
+}
+
+form > a.botao > span {
+    font-size: 1.3em;
 }
