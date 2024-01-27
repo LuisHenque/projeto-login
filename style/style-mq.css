@@ -2,7 +2,8 @@
 
 @media screen and (min-width: 768px) and (max-width:992px) {
     body {
-        background-image: linear-gradient(to bottom, #3f1859, #f2f2f2);
+        /* background-image: linear-gradient(to bottom, #3f1859, #f2f2f2); */
+        background-image: linear-gradient(to bottom, #402116, #f2f2f2);
     }
     section#login {
         width: 700px;
@@ -30,7 +31,8 @@
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to right, #f2f2f2, #ff7300b2);
+        /* background-image: linear-gradient(to right, #f2f2f2, #ff7300b2); */
+        background-image: linear-gradient(to right, #f2f2f2, #402116);
     }
     section#login {
         width: 950px;

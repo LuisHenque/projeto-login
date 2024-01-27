@@ -8,13 +8,15 @@
 }
 
 body, html {
-    background-color: #3f1859;
+    /* background-color: #3f1859; */
+    background-color: #402116;
     height: 100vh;
     width: 100vw;
 }
 
 header h1 {
     text-align: center;
+    color: #f2f2f2;
 }
 
 main {
